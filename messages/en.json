@@ -1,0 +1,20 @@
+{
+	"Header": {
+		"home": {
+			"name": "Home",
+			"link": "/"
+		},
+		"about": {
+			"name": "About",
+			"link": "#about"
+		},
+		"projects": {
+			"name": "Projects",
+			"link": "#projects"
+		},
+		"contact": {
+			"name": "Contact",
+			"link": "#contact"
+		}
+	}
+}

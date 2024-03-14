@@ -1,0 +1,20 @@
+{
+	"Header": {
+		"home": {
+			"name": "Главная",
+			"link": "/"
+		},
+		"about": {
+			"name": "О мне",
+			"link": "#about"
+		},
+		"projects": {
+			"name": "Проекты",
+			"link": "#projects"
+		},
+		"contact": {
+			"name": "Связаться",
+			"link": "#contact"
+		}
+	}
+}
