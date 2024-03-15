@@ -7,11 +7,11 @@ html {
 	&::-webkit-scrollbar {
 		width: 10px;
 	}
-	// &::-webkit-scrollbar-track {
-	// 	@apply bg-emerald-600;
-	// }
+	&::-webkit-scrollbar-track {
+		@apply bg-transparent w-1;
+	}
 	&::-webkit-scrollbar-thumb {
-		@apply bg-emerald-950 rounded-xl;
+		@apply bg-emerald-300 rounded-xl dark:bg-emerald-950;
 	}
 }
 body {
