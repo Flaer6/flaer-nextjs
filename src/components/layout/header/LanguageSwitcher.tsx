@@ -20,12 +20,12 @@ function LanguageSwitcher() {
 		<div className='relative'>
 			<button
 				onClick={() => setIsActive(!isActive)}
-				className='p-2 hover:text-emerald-600 text-lg relative'
+				className='p-2 hover:text-sky-600 text-lg relative'
 			>
 				<MdTranslate />
 			</button>
 			<div
-				className={`absolute top-10 -left-5 border border-solid border-emerald-500 dark:border-emerald-800 rounded-sm transition-all origin-top ${
+				className={`absolute top-10 -left-5 border border-solid border-sky-500 dark:border-sky-800 rounded-sm transition-all origin-top bg-sky-500 dark:bg-sky-950 ${
 					isActive ? 'scale-y-100 opacity-100' : 'scale-y-0 opacity-0'
 				}`}
 			>
@@ -35,7 +35,7 @@ function LanguageSwitcher() {
 							<Link
 								href={lang.link}
 								onClick={() => setIsActive(false)}
-								className='block py-3 px-2 text-center transition-colors hover:bg-emerald-100 dark:hover:bg-emerald-900'
+								className='block py-3 px-2 text-center transition-colors hover:bg-sky-300 dark:hover:bg-sky-900'
 							>
 								{lang.name}
 							</Link>

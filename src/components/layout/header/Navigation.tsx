@@ -11,7 +11,7 @@ function Navigation() {
 					<li key={key}>
 						<Link
 							href={t(`${key}.link`)}
-							className='uppercase font-bold py-5 px-6 hover:text-emerald-600 transition-colors'
+							className='uppercase font-bold py-5 px-6 hover:text-sky-600 transition-colors'
 						>
 							{t(`${key}.name`)}
 						</Link>

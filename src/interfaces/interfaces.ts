@@ -6,4 +6,5 @@ export interface ILink {
 export interface IProps {
 	className?: string
 	children?: React.ReactNode
+	href?: string
 }

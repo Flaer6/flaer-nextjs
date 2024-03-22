@@ -13,7 +13,7 @@ function ThemeSwitcher() {
 	return (
 		<button
 			onClick={toggleTheme}
-			className='p-2 text-xl transition-colors hover:text-emerald-600'
+			className='p-2 text-xl transition-colors hover:text-sky-600'
 		>
 			{theme === 'light' ? <MdOutlineDarkMode /> : <FiSun />}
 		</button>

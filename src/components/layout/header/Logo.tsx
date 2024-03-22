@@ -6,7 +6,7 @@ function Logo() {
 	const t = useTranslations('Header')
 	return (
 		<Link href={t('home.link')} className='flex items-center gap-6'>
-			<div className='bg-emerald-500 rounded-[50px] w-[50px] h-[50px] overflow-hidden dark:bg-emerald-900'>
+			<div className='bg-sky-950 rounded-[50px] w-[50px] h-[50px] overflow-hidden dark:bg-sky-900'>
 				<Image
 					src='/flaer.png'
 					alt='Flaer'

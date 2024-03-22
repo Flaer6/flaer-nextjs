@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+	--sky: linear-gradient(to bottom, #87ceeb, #87ceeb, #add8e6);
+}
+.dark {
+	--sky: linear-gradient(to bottom, #000022, #000033, #000044);
+}
+
 html {
 	@apply box-border;
 	&::-webkit-scrollbar {
@@ -11,7 +18,7 @@ html {
 		@apply bg-transparent w-1;
 	}
 	&::-webkit-scrollbar-thumb {
-		@apply bg-emerald-300 rounded-xl dark:bg-emerald-950;
+		@apply bg-sky-300 rounded-xl dark:bg-sky-950;
 	}
 }
 body {
