@@ -18,8 +18,18 @@
 		}
 	},
 	"Promo": {
-		"title": "HEY, I'M FLAER",
+		"title": "Portfolio",
 		"subtitle": "A Frontend focused Web Developer building the Frontend of Websites and Web Applications that leads to the success of the overall product",
 		"link": "PROJECTS"
+	},
+	"About": {
+		"title": "ABOUT ME",
+		"subtitle": "Here you will find more information about me, what I do, and my current skills mostly in terms of programming and technology",
+		"infoBlock": {
+			"title": "Get to know me!",
+			"paragraph1": "I'm a <important>Frontend Web Developer</important> building the Front-end of Websites and Web Applications that leads to the success of the overall product. Check out some of my work in the <important>Projects</important> section.",
+			"paragraph2": "I'm open to <important>Job</important> opportunities where I can contribute, learn and grow. If you have a good opportunity that matches my skills and experience then don't hesitate to <important>contact</important> me.",
+			"link": "contact"
+		}
 	}
 }

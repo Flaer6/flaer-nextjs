@@ -1,7 +1,0 @@
-.button {
-	@apply relative w-8 h-5 z-10;
-	span {
-		transition: all 0.3s ease;
-		@apply w-full h-[1px] bg-gray-950 block absolute;
-	}
-}

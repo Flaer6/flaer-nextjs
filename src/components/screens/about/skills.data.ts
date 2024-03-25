@@ -1,0 +1,15 @@
+export const skillsData: string[] = [
+	'HTML',
+	'CSS',
+	'JavaScript',
+	'TypeScript',
+	'Svelte',
+	'React',
+	'NextJS',
+	'SASS',
+	'Stylus',
+	'GitHub',
+	'GIT',
+	'MongoDB Basics',
+	'MongooseJS Basics',
+]

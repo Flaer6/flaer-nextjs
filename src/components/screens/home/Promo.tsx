@@ -1,7 +1,7 @@
 import BgStars from '@/components/ui/animation/BgStars'
 import { useTranslations } from 'next-intl'
 import Screen from '../Screen'
-import styles from './styles/promo.module.scss'
+import styles from './promo.module.scss'
 
 function Promo() {
 	const t = useTranslations('Promo')
@@ -13,7 +13,7 @@ function Promo() {
 					<h1 className='text-7xl uppercase tracking-wide font-bold max-md:text-6xl max-sm:text-[40px]'>
 						{t('title')}
 					</h1>
-					<p className='max-w-4xl pt-12 text-2xl font-medium max-md:text-xl max-md:pt-10 max-sm:text-lg'>
+					<p className='max-w-4xl pt-12 text-2xl font-medium max-md:text-xl max-md:pt-10 max-sm:text-lg max-sm:text-left'>
 						{t('subtitle')}
 					</p>
 					<a

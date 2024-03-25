@@ -3,25 +3,32 @@
 @tailwind utilities;
 
 :root {
+	--header-shadow: 0 10px 100px rgba(0, 0, 0, 0.1);
 	--sky: linear-gradient(to bottom, #87ceeb, #87ceeb, #add8e6);
 }
 .dark {
+	--header-shadow: 0 10px 100px rgba(255, 255, 255, 0.1);
 	--sky: linear-gradient(to bottom, #000022, #000033, #000044);
 }
 
 html {
 	@apply box-border;
 	&::-webkit-scrollbar {
-		width: 10px;
-	}
-	&::-webkit-scrollbar-track {
-		@apply bg-transparent w-1;
+		@apply w-1;
 	}
 	&::-webkit-scrollbar-thumb {
-		@apply bg-sky-300 rounded-xl dark:bg-sky-950;
+		@apply rounded-xl bg-sky-800;
 	}
 }
 body {
 	font-family: var(--font-source-code-pro);
-	@apply text-gray-800 overflow-x-hidden overflow-y-scroll relative text-[16px] dark:text-gray-100;
+	@apply text-gray-800 overflow-x-hidden overflow-y-scroll relative dark:text-gray-100 dark:bg-gray-900;
+	font-size: clamp(0.88rem, calc(0.83rem + 0.22vw), 1rem);
+}
+h3 {
+	@apply font-bold text-2xl mb-4;
+}
+.btn {
+	@apply bg-sky-700 rounded-md font-bold text-white uppercase tracking-widest inline-block text-sm transition-all hover:-translate-y-[3px];
+	box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
 }

@@ -2,7 +2,7 @@
 
 import { useState } from 'react'
 import Menu from './Menu'
-import styles from './button.module.scss'
+import styles from './header.module.scss'
 
 function Burger() {
 	const [isActive, setIsActive] = useState<boolean>(false)
