@@ -31,5 +31,34 @@
 			"paragraph2": "I'm open to <important>Job</important> opportunities where I can contribute, learn and grow. If you have a good opportunity that matches my skills and experience then don't hesitate to <important>contact</important> me.",
 			"link": "contact"
 		}
+	},
+	"Projects": {
+		"title": "Projects",
+		"subtitle": "Here you will find some of the personal and clients projects that I created with each project containing its own case study",
+		"link": "case study",
+		"metaV": {
+			"title": "MetaV",
+			"description": "Let's explore and create your experience with metaverse.",
+			"img": "/metaV.png",
+			"link": "/MetaV"
+		},
+		"cryptolly": {
+			"title": "Cryptolly",
+			"description": "The site is called Cryptolly and is dedicated to cryptocurrencies and blockchain",
+			"img": "/cryptolly.png",
+			"link": "/Cryptolly"
+		},
+		"himo": {
+			"title": "HIMO",
+			"description": "The site is an advertising page for the Xiaomi Himo Z20 electric bike.",
+			"img": "/himo.png",
+			"link": "/himo"
+		},
+		"tonBingo": {
+			"title": "TonBingo",
+			"description": "Let's explore and create your experience with metaverse.",
+			"img": "/tonBingo.png",
+			"link": "/TonBingo"
+		}
 	}
 }

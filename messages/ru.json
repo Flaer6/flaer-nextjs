@@ -31,5 +31,34 @@
 			"paragraph2": "Я открыт для <important>вакансии</important>, где я могу внести свой вклад, учиться и расти. Если у вас есть хорошая возможность, соответствующая моим навыкам и опыту, без колебаний <important>свяжитесь со мной</important>.",
 			"link": "контакт"
 		}
+	},
+	"Projects": {
+		"title": "Проекты",
+		"subtitle": "Здесь вы найдете проекты, которые я создал, каждый из которых содержит собственный практический пример.",
+		"link": "Перейти",
+		"metaV": {
+			"title": "MetaV",
+			"description": "Давайте изучим и создадим ваш опыт работы с метавселенной.",
+			"img": "/metaV.png",
+			"link": "/MetaV"
+		},
+		"cryptolly": {
+			"title": "Cryptolly",
+			"description": "Сайт называется Cryptolly и посвящен криптовалютам и блокчейну.",
+			"img": "/cryptolly.png",
+			"link": "/Cryptolly"
+		},
+		"himo": {
+			"title": "HIMO",
+			"description": "Сайт представляет собой рекламную страницу электровелосипеда Xiaomi Himo Z20.",
+			"img": "/himo.png",
+			"link": "/himo"
+		},
+		"tonBingo": {
+			"title": "TonBingo",
+			"description": "Сайт называется TonBingo и представляет собой онлайн-платформу для игры в бинго1.",
+			"img": "/tonBingo.png",
+			"link": "/TonBingo"
+		}
 	}
 }

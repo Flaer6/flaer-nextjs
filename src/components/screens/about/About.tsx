@@ -7,7 +7,7 @@ import Skills from './Skills'
 function About() {
 	const t = useTranslations('About')
 	return (
-		<Screen className='bg-[#fafafa] dark:bg-inherit py-16'>
+		<Screen className='bg-[#fafafa] dark:bg-gray-950 py-16'>
 			<div className='text-center'>
 				<Title>{t('title')}</Title>
 				<p className='max-w-[800px] mx-auto'>{t('subtitle')}</p>
