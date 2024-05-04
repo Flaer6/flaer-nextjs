@@ -1,0 +1,19 @@
+.contact {
+	background: var(--sky);
+}
+.form {
+	label {
+		@apply pb-1 font-bold tracking-wider block;
+		color: var(--label-color);
+	}
+}
+.input {
+	@apply rounded block w-full placeholder:font-semibold tracking-wide p-5 outline-none max-sm:p-4;
+	background: var(--input-bg);
+	&::placeholder {
+		color: var(--placeholder-color);
+	}
+}
+.inputWrapper {
+	@apply mb-6;
+}

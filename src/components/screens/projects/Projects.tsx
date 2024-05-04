@@ -11,16 +11,16 @@ function Projects() {
 			<div className='py-28 max-sm:py-24'>
 				<div className='text-center'>
 					<Title>{t('title')}</Title>
-					<p className='max-w-[800px] mx-auto'>{t('subtitle')}</p>
+					<p className='info'>{t('subtitle')}</p>
 				</div>
-				<div className='pt-24 flex flex-col gap-16'>
+				<div className='pt-24 flex flex-col gap-16 max-sm:pt-12'>
 					{projectsKeys.map(key => (
 						<div
 							key={key}
 							className='grid grid-cols-2 items-center gap-10 max-md:grid-cols-1 max-md:text-center max-sm:gap-5'
 						>
 							<div className=''>
-								<img src={t(`${key}.img`)} alt={t(`${key}.name`)} />
+								<img src={t(`${key}.img`)} alt={t(`${key}.title`)} />
 							</div>
 							<div className=''>
 								<h3>{t(`${key}.title`)}</h3>

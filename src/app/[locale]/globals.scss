@@ -5,10 +5,16 @@
 :root {
 	--header-shadow: 0 10px 100px rgba(0, 0, 0, 0.1);
 	--sky: linear-gradient(to bottom, #87ceeb, #87ceeb, #add8e6);
+	--input-bg: rgb(229 231 235 / 1);
+	--label-color: rgb(75 85 99/ 1);
+	--placeholder-color: rgb(156 163 175 / 1);
 }
 .dark {
 	--header-shadow: 0 10px 100px rgba(255, 255, 255, 0.1);
 	--sky: linear-gradient(to bottom, #000022, #000033, #000044);
+	--input-bg: rgb(55 65 81 / 1);
+	--label-color: rgb(209 213 219 / 1);
+	--placeholder-color: rgb(107 114 128 / 1);
 }
 
 html {
@@ -31,4 +37,7 @@ h3 {
 .btn {
 	@apply bg-sky-700 rounded-md font-bold text-white uppercase tracking-widest inline-block text-sm transition-all hover:-translate-y-[3px];
 	box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
+}
+.info {
+	@apply max-w-[800px] mx-auto;
 }

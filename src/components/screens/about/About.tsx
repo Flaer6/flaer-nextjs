@@ -7,10 +7,10 @@ import Skills from './Skills'
 function About() {
 	const t = useTranslations('About')
 	return (
-		<Screen className='bg-[#fafafa] dark:bg-gray-950 py-16'>
+		<Screen className='bg-[#fafafa] dark:bg-[#0c121e] py-16'>
 			<div className='text-center'>
 				<Title>{t('title')}</Title>
-				<p className='max-w-[800px] mx-auto'>{t('subtitle')}</p>
+				<p className='info'>{t('subtitle')}</p>
 			</div>
 			<div className='pt-10 flex justify-between gap-x-6 gap-y-12 max-[840px]:flex-col'>
 				<InfoBlock />
