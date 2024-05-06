@@ -1,3 +1,4 @@
+import Footer from '@/components/layout/footer/Footer'
 import Header from '@/components/layout/header/Header'
 import Providers from '@/providers/Providers'
 import type { Metadata } from 'next'
@@ -24,6 +25,7 @@ export default function RootLayout({
 				<Providers locale={locale} messages={messages} timeZone={timeZone}>
 					<Header />
 					<main>{children}</main>
+					<Footer />
 				</Providers>
 			</body>
 		</html>

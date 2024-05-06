@@ -13,7 +13,7 @@ function Menu({ className, state }: IMenu) {
 		<nav
 			className={`${className} ${
 				state ? 'scale-x-100' : 'scale-x-0'
-			} absolute top-0 right-0 min-h-screen min-w-[70%] origin-right transition-all bg-sky-900`}
+			} absolute top-0 right-0 min-h-screen min-w-[70%] origin-right transition-all bg-sky-900 dark:bg-sky-950`}
 		>
 			<ul className='flex flex-col items-end pt-20'>
 				{keys.map(key => (
