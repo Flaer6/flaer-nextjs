@@ -6,7 +6,13 @@ function Form() {
 	const t = useTranslations('Contact.form')
 	return (
 		<div className='bg-gray-100 rounded p-10 max-sm:p-7 mt-12 max-w-[800px] mx-48 max-[880px]:mx-36 max-md:mx-20 max-sm:mx-4 dark:bg-gray-800 shadow-2xl'>
-			<form action='#' className={styles.form}>
+			<form
+				className={styles.form}
+				action='https://formkeep.com/f/410a98a8c104'
+				accept-charset='UTF-8'
+				encType='multipart/form-data'
+				method='POST'
+			>
 				<div className={styles.inputWrapper}>
 					<label htmlFor='name'>{t('name')}</label>
 					<input
