@@ -1,4 +1,8 @@
 {
+	"Metadata": {
+		"title": "Flaer | Frontend Разработчик",
+		"description": "Разработка сайтов и веб приложений"
+	},
 	"Header": {
 		"home": {
 			"name": "Главная",
@@ -36,29 +40,30 @@
 		"title": "Проекты",
 		"subtitle": "Здесь вы найдете проекты, которые я создал, каждый из которых содержит собственный практический пример.",
 		"link": "Перейти",
+		"toolsUsed": "Инструменты",
 		"metaV": {
 			"title": "MetaV",
 			"description": "Давайте изучим и создадим ваш опыт работы с метавселенной.",
 			"img": "/metaV.png",
-			"link": "/MetaV"
+			"link": "https://meta-v-wheat.vercel.app/"
 		},
 		"cryptolly": {
 			"title": "Cryptolly",
 			"description": "Сайт называется Cryptolly и посвящен криптовалютам и блокчейну.",
 			"img": "/cryptolly.png",
-			"link": "/Cryptolly"
+			"link": "https://cryptolly-beta.vercel.app/"
 		},
 		"himo": {
 			"title": "HIMO",
 			"description": "Сайт представляет собой рекламную страницу электровелосипеда Xiaomi Himo Z20.",
 			"img": "/himo.png",
-			"link": "/himo"
+			"link": "https://flaer6.github.io/XiaomiHimo/"
 		},
 		"tonBingo": {
 			"title": "TonBingo",
 			"description": "Сайт называется TonBingo и представляет собой онлайн-платформу для игры в бинго1.",
 			"img": "/tonBingo.png",
-			"link": "/TonBingo"
+			"link": "https://tonbingo.vercel.app/"
 		}
 	},
 	"Contact": {

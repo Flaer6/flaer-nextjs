@@ -6,6 +6,6 @@
 	}
 }
 .header {
-	@apply px-[50px] py-4 max-[820px]:px-[20px] fixed top-0 left-0 right-0 z-50  backdrop-blur-3xl bg-opacity-90;
+	@apply px-[50px] py-4 max-[820px]:px-[20px] sticky top-0 left-0 right-0 z-50  backdrop-blur-3xl bg-opacity-90;
 	box-shadow: var(--header-shadow);
 }

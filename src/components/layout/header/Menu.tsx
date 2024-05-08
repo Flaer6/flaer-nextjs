@@ -5,15 +5,17 @@ import { keys } from './keys.data'
 interface IMenu {
 	className?: string
 	state?: boolean
+	onClick?: () => void
 }
 
-function Menu({ className, state }: IMenu) {
+function Menu({ className, state, onClick }: IMenu) {
 	const t = useTranslations('Header')
 	return (
 		<nav
 			className={`${className} ${
 				state ? 'scale-x-100' : 'scale-x-0'
 			} absolute top-0 right-0 min-h-screen min-w-[70%] origin-right transition-all bg-sky-900 dark:bg-sky-950`}
+			onClick={onClick}
 		>
 			<ul className='flex flex-col items-end pt-20'>
 				{keys.map(key => (

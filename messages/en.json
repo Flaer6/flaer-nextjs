@@ -1,4 +1,8 @@
 {
+	"Metadata": {
+		"title": "Flaer | Frontend Web Developer",
+		"description": "Development of websites and web applications"
+	},
 	"Header": {
 		"home": {
 			"name": "Home",
@@ -35,30 +39,31 @@
 	"Projects": {
 		"title": "Projects",
 		"subtitle": "Here you will find some of the personal and clients projects that I created with each project containing its own case study",
-		"link": "case study",
+		"link": "live link",
+		"toolsUsed": "Tools Used",
 		"metaV": {
 			"title": "MetaV",
 			"description": "Let's explore and create your experience with metaverse.",
 			"img": "/metaV.png",
-			"link": "/MetaV"
+			"link": "https://meta-v-wheat.vercel.app/"
 		},
 		"cryptolly": {
 			"title": "Cryptolly",
 			"description": "The site is called Cryptolly and is dedicated to cryptocurrencies and blockchain",
 			"img": "/cryptolly.png",
-			"link": "/Cryptolly"
+			"link": "https://cryptolly-beta.vercel.app/"
 		},
 		"himo": {
 			"title": "HIMO",
 			"description": "The site is an advertising page for the Xiaomi Himo Z20 electric bike.",
 			"img": "/himo.png",
-			"link": "/himo"
+			"link": "https://flaer6.github.io/XiaomiHimo/"
 		},
 		"tonBingo": {
 			"title": "TonBingo",
 			"description": "Let's explore and create your experience with metaverse.",
 			"img": "/tonBingo.png",
-			"link": "/TonBingo"
+			"link": "https://tonbingo.vercel.app/"
 		}
 	},
 	"Contact": {

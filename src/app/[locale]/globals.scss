@@ -18,7 +18,7 @@
 }
 
 html {
-	@apply box-border;
+	@apply box-border w-full h-full scroll-smooth;
 	&::-webkit-scrollbar {
 		@apply w-1;
 	}
@@ -28,7 +28,7 @@ html {
 }
 body {
 	font-family: var(--font-source-code-pro);
-	@apply text-gray-800 overflow-x-hidden overflow-y-scroll relative dark:text-gray-100 dark:bg-gray-900;
+	@apply text-gray-800 overflow-x-hidden overflow-y-scroll relative dark:text-gray-100 dark:bg-gray-900 h-full;
 	font-size: clamp(0.88rem, calc(0.83rem + 0.22vw), 1rem);
 }
 h3 {

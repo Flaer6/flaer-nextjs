@@ -7,7 +7,7 @@ import Skills from './Skills'
 function About() {
 	const t = useTranslations('About')
 	return (
-		<Screen className='bg-[#fafafa] dark:bg-[#0c121e] py-16'>
+		<Screen className='bg-[#fafafa] dark:bg-[#0c121e] py-16' id='about'>
 			<div className='text-center'>
 				<Title>{t('title')}</Title>
 				<p className='info'>{t('subtitle')}</p>

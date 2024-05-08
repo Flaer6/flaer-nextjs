@@ -23,7 +23,7 @@ function Burger() {
 					className={`dark:bg-gray-400 bottom-0 ${lineActive('scale-0')}`}
 				></span>
 			</button>
-			<Menu state={isActive} />
+			<Menu state={isActive} onClick={() => setIsActive(false)} />
 		</div>
 	)
 }
