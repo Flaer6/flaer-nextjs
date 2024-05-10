@@ -19,6 +19,7 @@ function Form() {
 						className={`${styles.input}`}
 						id='name'
 						type='text'
+						name='text'
 						placeholder={t('placeholderName')}
 					/>
 				</div>
@@ -27,7 +28,8 @@ function Form() {
 					<input
 						className={`${styles.input}`}
 						id='email'
-						type='mail'
+						type='email'
+						name='email'
 						placeholder={t('placeholderEmail')}
 					/>
 				</div>
