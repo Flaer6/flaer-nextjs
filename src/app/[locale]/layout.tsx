@@ -2,9 +2,14 @@ import Footer from '@/components/layout/footer/Footer'
 import Header from '@/components/layout/header/Header'
 import Providers from '@/providers/Providers'
 import { useMessages, useTimeZone } from 'next-intl'
+import { getTranslations, unstable_setRequestLocale } from 'next-intl/server'
 import './globals.scss'
 
-import { getTranslations } from 'next-intl/server'
+const locales = ['en', 'ru']
+
+export function generateStaticParams() {
+	return locales.map(locale => ({ locale }))
+}
 
 export async function generateMetadata({
 	params: { locale },
@@ -12,7 +17,6 @@ export async function generateMetadata({
 	params: { locale: any }
 }) {
 	const t = await getTranslations({ locale, namespace: 'Metadata' })
-
 	return {
 		title: t('title'),
 		description: t('description'),
@@ -22,10 +26,11 @@ export async function generateMetadata({
 export default function RootLayout({
 	children,
 	params: { locale },
-}: Readonly<{
+}: {
 	children: React.ReactNode
-	params: { locale: string }
-}>) {
+	params: { locale: any }
+}) {
+	unstable_setRequestLocale(locale)
 	const messages = useMessages()
 	const timeZone = useTimeZone()
 	return (

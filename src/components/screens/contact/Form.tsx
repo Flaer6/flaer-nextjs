@@ -19,7 +19,7 @@ function Form() {
 						className={`${styles.input}`}
 						id='name'
 						type='text'
-						name='text'
+						name='name'
 						placeholder={t('placeholderName')}
 					/>
 				</div>
