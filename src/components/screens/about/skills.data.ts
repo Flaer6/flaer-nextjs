@@ -12,4 +12,6 @@ export const skillsData: string[] = [
 	'GIT',
 	'MongoDB Basics',
 	'MongooseJS Basics',
+	'Astro',
+	'Tailwind',
 ]
